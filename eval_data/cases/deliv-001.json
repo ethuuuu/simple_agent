@@ -1,0 +1,6 @@
+{
+ "id": "deliv-001",
+ "category": "deliv",
+ "task": "Prepare an approval note (Word) for the maintenance team approving the M20 flange bolt torque procedure for the Line 3 heat-exchanger refit. Base it on our SOPs.",
+ "expect": "Writes plan.md first (write_file before other deliverable calls); calls kb_search; make_docx to out/*.docx containing 210 Nm, star pattern, 3 passes 30%/70%/100% and citation [sop-17.txt p.1]; verifies with read_document on the docx; final summary lists the file path."
+}

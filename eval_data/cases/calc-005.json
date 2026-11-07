@@ -1,0 +1,6 @@
+{
+ "id": "calc-005",
+ "category": "calc",
+ "task": "Hydrostatic test pressure is 1.5 x design pressure. For design pressures 10, 16, 25 and 40 bar, compute test pressures and write them to out/hydrotest.xlsx (columns: Design bar, Test bar). Verify the file with read_spreadsheet before answering.",
+ "expect": "Uses run_python (or Excel formulas) for 1.5x; creates out/hydrotest.xlsx with rows 10->15, 16->24, 25->37.5, 40->60; calls read_spreadsheet on out/hydrotest.xlsx and the readback shows those values; answer reports them."
+}

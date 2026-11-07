@@ -1,0 +1,6 @@
+{
+ "id": "calc-002",
+ "category": "calc",
+ "task": "Convert a line pressure of 450 psi to bar and to MPa, and a bolt torque of 75 ft-lbf to N\u00b7m. Give 4 significant figures and state the conversion factors used.",
+ "expect": "Calls run_python. Answers ~31.03 bar (factor 0.0689476 bar/psi), ~3.103 MPa, ~101.7 N\u00b7m (factor 1.35582 N\u00b7m per ft-lbf). Exact: 31.0264 bar, 3.10264 MPa, 101.686 N\u00b7m."
+}

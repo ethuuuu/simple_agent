@@ -1,0 +1,6 @@
+{
+ "id": "kb-004",
+ "category": "kb",
+ "task": "How hard should I crank down the big nuts that hold two pipe ends together, the 20 millimetre size? Cite where you found it.",
+ "expect": "Paraphrase: query words (crank, nuts, pipe, millimetre) barely overlap sop-17 (M20, flange, bolts, torqued). Correct run retries kb_search with domain terms (torque, flange, bolt, M20) if first search misses, then answers 210 Nm, star pattern, 3 passes citing [sop-17.txt p.1]. Fail if it says the KB has nothing or invents a value."
+}

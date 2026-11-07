@@ -1,0 +1,9 @@
+{
+ "id": "deliv-002",
+ "category": "deliv",
+ "setup": {
+  "notes/pump_review.txt": "Pump P-204 review meeting, 2026-10-28\n- Vibration at drive-end bearing rose from 2.1 to 4.8 mm/s over 6 weeks (alarm 4.5 mm/s).\n- Root cause suspected: misalignment after September motor swap. Laser alignment not done after swap.\n- Actions: (1) laser-align motor/pump by 2026-11-15, owner R. Patel; (2) replace DE bearing at next shutdown, owner M. Chen; (3) weekly vibration readings until stable, owner ops.\n- Spare bearing SKF 6312 in stock (qty 2).\n"
+ },
+ "task": "Turn notes/pump_review.txt into a short 3-slide PowerPoint deck for the plant manager: problem, root cause, actions. Save it to out/.",
+ "expect": "plan.md written; read_file notes/pump_review.txt; make_pptx out/*.pptx with 3 content slides (problem / root cause / actions) containing 4.8 mm/s vs 4.5 alarm, misalignment after motor swap, owners R. Patel / M. Chen and date 2026-11-15; no invented facts; verifies the deck (e.g. run_python with python-pptx); summary lists file. Note make_pptx always adds a title slide, so 4 slides total is acceptable."
+}

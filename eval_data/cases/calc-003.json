@@ -1,0 +1,9 @@
+{
+ "id": "calc-003",
+ "category": "calc",
+ "task": "data/readings.csv holds pressure readings from a test rig. Acceptable range is 11.6 to 13.0 bar inclusive. Report the mean, max, min and how many readings are out of limit (and which timestamps).",
+ "expect": "Loads CSV with pandas in run_python. mean = 12.45 bar, max = 13.6 bar, min = 11.5 bar, out-of-limit count = 3 at 08:30 (13.2), 08:50 (11.5), 09:10 (13.6).",
+ "setup": {
+  "data/readings.csv": "timestamp,pressure_bar\n08:00,12.1\n08:10,12.4\n08:20,11.8\n08:30,13.2\n08:40,12.9\n08:50,11.5\n09:00,12.0\n09:10,13.6\n09:20,12.3\n09:30,12.7\n"
+ }
+}

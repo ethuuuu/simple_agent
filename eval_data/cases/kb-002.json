@@ -1,0 +1,6 @@
+{
+ "id": "kb-002",
+ "category": "kb",
+ "task": "What torque do M24 stainless steel flange bolts need according to our SOPs? Cite the source.",
+ "expect": "Calls kb_search (ideally with more than one query). Says the KB does not contain an M24 / stainless torque value. Must NOT state a numeric M24 torque as if from the KB and must NOT cite sop-17.txt as the source for an M24 value (sop-17 only covers M20, 210 Nm)."
+}

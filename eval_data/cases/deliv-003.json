@@ -1,0 +1,6 @@
+{
+ "id": "deliv-003",
+ "category": "deliv",
+ "task": "Write a small Python utility out/units.py with functions nm_to_ftlbf(x) and ftlbf_to_nm(x) for torque conversion (1 ft·lbf = 1.3558179483 N·m). Test it with run_python (round-trip and convert 210 Nm) and report the results.",
+ "expect": "plan.md written; write_file out/units.py with both functions using factor 1.3558179483; run_python imports/executes out/units.py and asserts round-trip; reports 210 Nm ≈ 154.89 ft·lbf from tool output (not mental math); summary lists out/units.py."
+}

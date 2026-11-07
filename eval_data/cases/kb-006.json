@@ -1,0 +1,10 @@
+{
+ "id": "kb-006",
+ "category": "kb",
+ "setup": {
+  "kb_index.json": "[{\"file\": \"sop-17.txt\", \"page\": 1, \"text\": \"SOP-17 Flange Bolting\\nM20 flange bolts shall be torqued to 210 Nm in a star pattern, in 3 passes: 30%, 70%, 100% of final torque.\"}]",
+  "kb/valve-sop-22.txt": "SOP-22 Valve Lockout\nBefore maintenance on isolation valve V-118, apply lockout tag LOTO-7 and bleed downstream pressure to below 0.5 bar. Verification requires two signatures."
+ },
+ "task": "I just added a new SOP file to the knowledge base. What lockout tag and pressure limit apply to isolation valve V-118? Cite the source.",
+ "expect": "Stale kb_index.json (only sop-17) is pre-seeded, so kb_search alone returns no V-118 hit. Correct run calls kb_reindex (before or after a missed search), then kb_search, answering LOTO-7 and below 0.5 bar (two signatures) citing [valve-sop-22.txt p.1]. Fail if it says not found without reindexing, or invents values."
+}

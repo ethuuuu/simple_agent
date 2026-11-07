@@ -1,0 +1,10 @@
+{
+ "id": "kb-005",
+ "category": "kb",
+ "setup": {
+  "kb/gasket-guide.txt": "GASKET SELECTION GUIDE GG-3\nFor M20 flanges in steam service use spiral-wound gasket type SW-316 with graphite filler. Gaskets must never be reused.",
+  "kb/ppe-matrix.txt": "PPE MATRIX PM-9\nFlange bolting work on steam lines requires face shield, heat-resistant gloves rated to 250 C, and hearing protection."
+ },
+ "task": "I'm about to bolt up an M20 flange on a steam line. What torque, which gasket, and what PPE do I need? Cite a source for each fact.",
+ "expect": "Combines three docs: 210 Nm star 3 passes [sop-17.txt p.1]; SW-316 spiral-wound graphite, no reuse [gasket-guide.txt p.1]; face shield, heat-resistant gloves 250 C, hearing protection [ppe-matrix.txt p.1]. Each fact cited to its own file. Partial if a fact or citation is missing."
+}

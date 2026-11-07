@@ -1,0 +1,9 @@
+{
+ "id": "deliv-004",
+ "category": "deliv",
+ "setup": {
+  "data/bolts.csv": "joint,size,qty,torque_nm\nJ1,M20,8,210\nJ2,M20,12,210\nJ3,M16,8,\nJ4,M20,16,210\n"
+ },
+ "task": "For the Line 3 refit, produce two deliverables: (a) out/torque_schedule.xlsx listing every joint from data/bolts.csv with the three pass torques (30%, 70%, 100%) as Excel formulas and a total bolt count, and (b) out/torque_brief.docx summarising the procedure with citations. Flag anything missing in the data.",
+ "expect": "plan.md written and updated with steps; reads data/bolts.csv; kb_search cites [sop-17.txt p.1]; make_xlsx with formulas like =D2*0.3, total bolts 44 via formula or run_python; flags J3 (M16) missing torque and that the KB has no M16 value rather than inventing one; make_docx brief with citation; verifies both (read_spreadsheet + read_document); summary lists both files."
+}

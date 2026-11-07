@@ -1,0 +1,98 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1793865062.2044156,
+    "seen": 1793865235.574539,
+    "ast_hash": "351c132ac0abbc93a225e827d5bd1d2f",
+    "semantic_hash": "351c132ac0abbc93a225e827d5bd1d2f"
+  },
+  "agent.py": {
+    "mtime": 1793863701.6228824,
+    "seen": 1793865235.5745401,
+    "ast_hash": "cad58a6017e03588e29c9ff0eb2f60f7",
+    "semantic_hash": "cad58a6017e03588e29c9ff0eb2f60f7"
+  },
+  "kb.py": {
+    "mtime": 1793863754.8371875,
+    "seen": 1793865235.574541,
+    "ast_hash": "7343a4abcf703067b35837fa95a5f4b0",
+    "semantic_hash": "7343a4abcf703067b35837fa95a5f4b0"
+  },
+  "llm.py": {
+    "mtime": 1793863701.2307599,
+    "seen": 1793865235.574541,
+    "ast_hash": "24b3c8210a4c8e6368d5de7dec0ba601",
+    "semantic_hash": "24b3c8210a4c8e6368d5de7dec0ba601"
+  },
+  "pyproject.toml": {
+    "mtime": 1793863523.501864,
+    "seen": 1793865235.574542,
+    "ast_hash": "160b26c4252590c8475a7c0f8cffd71e",
+    "semantic_hash": "160b26c4252590c8475a7c0f8cffd71e"
+  },
+  "test_smoke.py": {
+    "mtime": 1793863713.003224,
+    "seen": 1793865235.574543,
+    "ast_hash": "298df112b69bd23c8dc362c97c361ba9",
+    "semantic_hash": "298df112b69bd23c8dc362c97c361ba9"
+  },
+  "tools.py": {
+    "mtime": 1793863859.7062032,
+    "seen": 1793865235.574543,
+    "ast_hash": "41919cbbf994abb9c661c08eef2a70d5",
+    "semantic_hash": "41919cbbf994abb9c661c08eef2a70d5"
+  },
+  "CLAUDE.md": {
+    "mtime": 1793865062.204207,
+    "seen": 1793865235.574545,
+    "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
+    "semantic_hash": "67d88e9d0760c3ba54c75dfd9551c1c5"
+  },
+  "README.md": {
+    "mtime": 1793863870.3021274,
+    "seen": 1793865235.574545,
+    "ast_hash": "54d477cd1684023af83b5e5e69296305",
+    "semantic_hash": "54d477cd1684023af83b5e5e69296305"
+  },
+  "workspace/kb/sop-17.txt": {
+    "mtime": 1793863775.6820219,
+    "seen": 1793865235.5745459,
+    "ast_hash": "fb0f7e3467386a9538778ceab92ed8b5",
+    "semantic_hash": "fb0f7e3467386a9538778ceab92ed8b5"
+  },
+  "workspace/plan.md": {
+    "mtime": 1793877253.43551,
+    "seen": 1793932717.303943,
+    "ast_hash": "0ae345cd404e4cf8d51e8a0e75e2cd6e",
+    "semantic_hash": ""
+  },
+  "eval_data/cases/smoke-000.json": {
+    "mtime": 1793932604.7326012,
+    "seen": 1793932717.303936,
+    "ast_hash": "70e1797015e3df664ff94c644d072ef6",
+    "semantic_hash": ""
+  },
+  "eval_data/record.py": {
+    "mtime": 1793932599.291189,
+    "seen": 1793932717.303936,
+    "ast_hash": "b91d0c5445ce15e2a75d9537c34bf18a",
+    "semantic_hash": ""
+  },
+  "eval_data/runs/smoke-000.json": {
+    "mtime": 1793932613.6981587,
+    "seen": 1793932717.303937,
+    "ast_hash": "f868467747b78474b8ab32de26779b2e",
+    "semantic_hash": ""
+  },
+  "workspace/flow_converter.py": {
+    "mtime": 1793877574.1728337,
+    "seen": 1793932717.30394,
+    "ast_hash": "35c62f773b1e04c1aa248925de94f031",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1793932673.8587785,
+    "seen": 1793932717.303941,
+    "ast_hash": "b1d3a70b8a44af9ea249d09f77e5b95e",
+    "semantic_hash": ""
+  }
+}

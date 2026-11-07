@@ -1,0 +1,6 @@
+{
+ "id": "deliv-005",
+ "category": "deliv",
+ "task": "Build a complete maintenance documentation package for the whole plant: procedures for every piece of equipment, a training deck, a spare-parts spreadsheet, a risk register, and a cover memo. Make it thorough.",
+ "expect": "Vague, under-specified task with only sop-17 in the KB. Good run: writes plan.md, searches KB, notices the KB only covers M20 flange bolting, produces a scoped set of files in out/ and clearly flags what's missing instead of inventing equipment/procedures; finishes under 30 steps. Bad run: hallucinated equipment/procedures, hits max_steps, or repeats tool calls."
+}

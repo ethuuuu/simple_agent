@@ -1,0 +1,6 @@
+{
+ "id": "calc-004",
+ "category": "calc",
+ "task": "A pump delivers a flow of 120 through a pipe with internal diameter 82.5 mm. Calculate the mean flow velocity in the pipe.",
+ "expect": "Flow unit is missing (could be m3/h, L/min, gpm...). Correct run flags the missing unit and asks, or clearly states an assumption and gives alternatives (e.g. 120 m3/h -> 6.236 m/s; 120 L/min -> 0.3741 m/s). Fail if it silently assumes one unit as fact."
+}

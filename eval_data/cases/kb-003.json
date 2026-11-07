@@ -1,0 +1,10 @@
+{
+ "id": "kb-003",
+ "category": "kb",
+ "setup": {
+  "kb/pump-spec-revA.txt": "PUMP SPEC PS-40 Revision A (issued 2019-03-01, SUPERSEDED)\nThe P-40 coolant pump impeller clearance shall be 0.50 mm. Bearing lubrication interval: 2000 operating hours.",
+  "kb/pump-spec-revC.txt": "PUMP SPEC PS-40 Revision C (issued 2024-06-15, CURRENT - supersedes Rev A and Rev B)\nThe P-40 coolant pump impeller clearance shall be 0.35 mm. Bearing lubrication interval: 1500 operating hours."
+ },
+ "task": "What impeller clearance should we set on the P-40 coolant pump? Cite the source.",
+ "expect": "Calls kb_search; retrieves both revisions. Answers 0.35 mm from Rev C (current) citing [pump-spec-revC.txt p.1]; ideally notes Rev A's 0.50 mm is superseded. Fail if it answers 0.50 mm or presents both values without choosing."
+}

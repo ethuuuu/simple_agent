@@ -1,0 +1,6 @@
+{
+ "id": "calc-001",
+ "category": "calc",
+ "task": "Using the KB procedure for M20 flange bolts, what torque value (Nm) is applied on each tightening pass? Show the formula and inputs.",
+ "expect": "Calls kb_search (cites [sop-17.txt p.1]); calls run_python to compute 210*0.30, 210*0.70, 210*1.00; answers 63 Nm, 147 Nm, 210 Nm with formula and units. No mental math (run_python call must precede the answer)."
+}

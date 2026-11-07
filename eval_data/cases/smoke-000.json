@@ -1,0 +1,1 @@
+{"id": "smoke-000", "category": "smoke", "task": "What torque do M20 flange bolts need? Answer in one sentence with a citation.", "expect": "Calls kb_search; answers 210 Nm star pattern, 3 passes; cites [sop-17.txt p.1]."}

@@ -1,0 +1,6 @@
+{
+ "id": "kb-001",
+ "category": "kb",
+ "task": "According to our SOPs, how should M20 flange bolts be tightened? Give the final torque, the pattern, and the torque for each pass in Nm. Cite your source.",
+ "expect": "Calls kb_search. States 210 Nm final, star pattern, 3 passes at 30%/70%/100% = 63 Nm, 147 Nm, 210 Nm (computed correctly, ideally via run_python, not invented). Cites [sop-17.txt p.1]."
+}

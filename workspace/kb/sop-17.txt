@@ -1,0 +1,2 @@
+SOP-17 Flange Bolting
+M20 flange bolts shall be torqued to 210 Nm in a star pattern, in 3 passes: 30%, 70%, 100% of final torque.
